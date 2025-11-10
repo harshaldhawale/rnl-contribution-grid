@@ -9,10 +9,19 @@ Designed and maintained by **React Native Lab** 🧪.
 
 ```bash
 npm install rnl-contribution-grid
+```
 # or
+```bash
 yarn add rnl-contribution-grid
+```
 
-💡 Usage Example
+## 🖼️ Preview
+
+<image src="/assets/contribution-grid.jpg" alt=""/>
+
+## Usage/Examples
+
+```javascript
 import React from "react";
 import { View } from "react-native";
 import ContributionGrid from "rnl-contribution-grid";
@@ -40,48 +49,33 @@ export default function App() {
     </View>
   );
 }
+```
 
-⚙️ Props
-Prop	Type	Default	Description
-data	Array<{date: string, contributed: boolean}>	[]	Array of contribution data
-activeColor	string	#4CAF50	Active cell color
-inactiveColor	string	#E0E0E0	Inactive cell color
-backgroundColor	string	#F8F8F8	Background color of grid
-borderColor	string	#4CAF50	Border color for current date
-containerPadding	number	5	Padding around grid
-containerMargin	number	10	Margin around grid
-cellSize	number	20	Base size of each cell
-gap	number	4	Gap between cells
-columns	number	16	Number of columns (weeks)
-🧠 Features
+## Features
 
-📅 Automatically aligns from Sunday → Saturday
+- Automatically aligns from Sunday → Saturday
+- Highlights current date with border
+- Auto-adjusts cell size based on screen width
+- Fully themeable colors and padding
+- Integrates smoothly with any React Native UI
 
-🎯 Highlights current date with border
-
-📏 Auto-adjusts cell size based on screen width
-
-🌈 Fully themeable colors and padding
-
-🧩 Integrates smoothly with any React Native UI
+## Props
 
 
-🖼️ Preview
+| Prop | Type     | Default     | Description                |
+| :-------- | :------- | :------- |:------------------------- |
+| `data` | `Array<{date: string, contributed: boolean}>` | `[]` | Array of contribution data |
+| `activeColor` | `string` | `#4CAF50` |Active cell color |
+| `inactiveColor` | `string` | `#E0E0E0` |Inactive cell color |
+| `backgroundColor` | `string` | `#F8F8F8` |Background color of grid |
+| `borderColor` | `string` | `#4CAF50` |Border color for current date |
+| `containerPadding` | `number` | `5` |Padding around grid |
+| `containerMargin` | `number` | `10` |Margin around grid |
+| `cellSize` | `number` | `20` |Base size of each cell |
+| `gap` | `number` | `4` |Gap between cells |
+| `columns` | `number` | `16` |Number of columns (weeks) |
 
-
-
-
-Add preview images inside /assets folder.
-
-
-
-
-🧪 About React Native Lab
+## About React Native Lab
 
 React Native Lab (RNL) is an initiative by Harshal Dhawale to create clean, modern, and open-source UI components for React Native developers.
 
-📜 License
-
-MIT © 2025 Harshal Dhawale
-See LICENSE
- for details.
