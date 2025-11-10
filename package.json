@@ -1,0 +1,35 @@
+{
+  "name": "rnl-contribution-grid",
+  "version": "1.0.0",
+  "description": "A customizable contribution grid component for React Native apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshaldhawale/rnl-contribution-grid.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-ui",
+    "contribution-grid",
+    "github-activity",
+    "heatmap",
+    "calendar-grid",
+    "react-native-lab",
+    "rnl",
+    "react-native-lab-components"
+  ],
+  "author": "Harshal Dhawale",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/harshaldhawale/rnl-contribution-grid/issues"
+  },
+  "homepage": "https://github.com/harshaldhawale/rnl-contribution-grid#readme",
+  "peerDependencies": {
+    "react": "^19.2.0",
+    "react-native": "^0.82.1"
+  }
+}
